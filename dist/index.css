@@ -1,0 +1,150 @@
+/* General */
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #58007E;
+    height: 100%;
+    font-family: 'Noto Sans',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    margin:0;
+}
+
+a, button {
+    transition: background-color 0.5s ease;
+    background-color:#46A246;
+    color:#ffffff;
+    margin:0.5em;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+a:hover, button:hover {
+    background-color: #53AB51;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:disabled,button[disabled] {
+    text-decoration: none;
+}
+
+h1 {
+    font-size:2em;
+}
+
+h2 {
+    font-size:1.5em;
+}
+
+h4 {
+    font-size:1.25em;
+}
+
+label {
+    font-size:1em;
+}
+
+#app {
+    height: 50%;
+    width:100%;
+    display:table;
+}
+
+.text {
+    color: #ffffff;
+}
+
+.review {
+    font-style: italic;
+}
+
+.upper-padding {
+    height: 15%;
+}
+
+.lower-padding {
+    height: 35%;
+}
+
+.row {
+    margin: 0;
+}
+
+.main-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.upper-btn-container {
+    margin: 2em 0em;
+}
+
+.error-message {
+    padding:1em;
+}
+
+/* Search */
+
+.title {
+    margin:0.25em;
+    padding:0.25em;
+}
+
+input.search-textbox {
+    padding: 0.5em;
+    width: 75%;
+}
+
+.search-btn-container {
+    margin-top: 1em;
+}
+
+/* Details and list */
+
+.details-container-element {
+    padding:1em;
+}
+
+.list-container {
+    padding:1em;
+}
+
+.list-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.details-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 48em){
+    .details-img-container {
+        text-align: right;
+    }
+
+    .details-text-container {
+        text-align: left;
+    }
+
+    input.search-textbox {
+        padding: 0.75em;
+        width: 50%;
+    }
+}

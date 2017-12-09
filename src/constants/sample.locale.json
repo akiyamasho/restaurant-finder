@@ -1,0 +1,82 @@
+{
+  "search": [
+    "Search",
+    "検索"
+  ],
+   "query_placeholder": [
+     "Search for a restaurant...",
+     "レストランを探します・・・"
+   ],
+  "random_restaurant": [
+    "Random Restaurant",
+    "ランダムなレストラン"
+  ],
+  "more_details": [
+    "More details",
+    "詳細"
+  ],
+  "search_again": [
+    "Search Again",
+    "もう一度検索する"
+  ],
+  "empty_list": [
+    "No places found.",
+    "場所が見つかりません。"
+  ],
+  "back_to_list": [
+    "Go back to list",
+    "リストに戻る"
+  ],
+  "navigate": [
+    "Navigate",
+    "経路"
+  ],
+  "details_error": [
+    "An error occurred with retrieving the details.",
+    "詳細の取得にエラーが発生されました。"
+  ],
+  "no_restaurant_reviews": [
+    "This restaurant has not yet been reviewed.",
+    "このレストランはまだレビューされていません。"
+  ],
+  "no_price_range": [
+    "This restaurant has no price information.",
+    "このレストランは値段情報がありません。"
+  ],
+  "no_rating": [
+    "This restaurant has no rating yet.",
+    "このレストランはまだ評価されていません。"
+  ],
+  "no_hour_info": [
+    "This restaurant has no store hour information.",
+    "このレストランは店舗時間情報があれません。"
+  ],
+  "no_website_info": [
+    "This restaurant has no website information.",
+    "このレストランはウェブサイト情報があれません。"
+  ],
+  "no_menu_info": [
+    "This restaurant has no menu information.",
+    "このレストランはメニュー情報があれません。"
+  ],
+  "menu": [
+    "View Menu",
+    "メニューを見る"
+  ],
+  "website": [
+    "Visit website",
+    "ウェブサイトを訪問"
+  ],
+  "rating": [
+    "Rating",
+    "評価"
+  ],
+  "km_away": [
+    "km away",
+    "kmのところにあります"
+  ],
+  "price_range": [
+    "Price Range",
+    "価格帯"
+  ]
+}
